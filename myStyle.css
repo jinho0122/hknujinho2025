@@ -1,0 +1,739 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #f0ebc5;
+}
+
+#mainContainer {
+  width: 1420px;
+  height: 4800px;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+#imgContainer {
+  width: 1420px;
+  height: 4800px;
+
+  display: block;
+  justify-content: center;
+}
+
+.bgImg {
+  width: 1420px;
+  object-fit: contain;
+  display: block;
+}
+
+#bgImg1 {
+  position: relative;
+  top: 0px;
+}
+#bgImg2 {
+  position: relative;
+  margin-top: px;
+}
+#bgImg3 {
+  position: relative;
+  margin-top: -1px;
+  margin-left: -2px;
+}
+
+.textContainer {
+  width: 1420px;
+  height: 4850px;
+  position: absolute;
+}
+
+#textBox1 {
+  z-index: 2;
+  top: 0px;
+}
+#textBox2 {
+  z-index: 3;
+  top: 0px;
+}
+#textBox3 {
+  z-index: 4;
+  top: 0px;
+}
+#textBox4 {
+  z-index: 5;
+  top: 0px;
+}
+#textBox5 {
+  z-index: 6;
+  top: 0px;
+}
+#textBox6 {
+  z-index: 7;
+  top: 0px;
+}
+#textBox7 {
+  z-index: 8;
+  top: 0px;
+}
+#textBox8 {
+  z-index: 9;
+  top: 0px;
+}
+
+#textBox9 {
+  position: absolute;
+  z-index: 20;
+  top: 0px;
+}
+
+#textBox10 {
+  z-index: 11;
+  top: 0px;
+}
+
+#textBox11 {
+  z-index: 12;
+  top: 0px;
+}
+
+#textBox15 {
+  z-index: 6;
+  top: 0px;
+}
+
+#textBox16 {
+  z-index: 6;
+  top: 0px;
+}
+
+#textBox17 {
+  z-index: 6;
+  top: 0px;
+}
+
+#button {
+  top: 0px;
+  z-index: 99;
+  pointer-events: auto;
+}
+
+#button2 {
+  z-index: 11;
+  top: 0px;
+}
+
+#button3 {
+  z-index: 99;
+  top: 0px;
+}
+
+.main-title {
+  position: relative;
+  margin-top: 130px;
+  margin-left: 180px;
+  color: #fff;
+  font-family: "Pretendard", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  z-index: 2;
+}
+
+.intro-text-block {
+  position: relative;
+  margin-top: 80px;
+  margin-left: 80px;
+  width: 520px;
+  height: 311px;
+  color: #fff;
+  font-family: "Pretendard", sans-serif;
+}
+
+.intro-heading {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.intro-paragraph {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140%;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.info-section {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 80px;
+  width: 480px;
+  height: 627px;
+  color: #fff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+}
+
+#snsSection {
+  scroll-margin-top: 150px;
+}
+
+.info-block {
+  margin-bottom: 60px;
+}
+
+.info-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+  margin-bottom: 10px;
+}
+
+.info-text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 31px;
+}
+
+.custom-image-8 {
+  position: relative;
+  margin-top: 80px;
+  margin-left: 80px;
+  width: 178px;
+  height: 54px;
+  flex-shrink: 0;
+  z-index: 0;
+}
+
+.headline-box {
+  position: relative;
+  margin-top: 165px;
+  margin-left: 950px;
+
+  width: 389px;
+  height: 136px;
+  flex-shrink: 0;
+
+  color: #fff;
+  font-family: "Pretendard", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.salary-explanation {
+  position: relative;
+  margin-top: 5cqh;
+  margin-left: 940px;
+  width: 387px;
+  height: 324px;
+  color: #fff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+}
+
+.salary-explanation2 {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 940px;
+  width: 387px;
+  height: 324px;
+  color: #fff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+}
+
+.salary-explanation3 {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 940px;
+  width: 387px;
+  height: 324px;
+  color: #fff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+}
+
+.salary-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 12px;
+}
+
+.salary-paragraph {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  margin-bottom: 12px;
+}
+
+.salary-list {
+  padding-left: 18px;
+  margin: 0 0 12px;
+}
+
+.salary-list li {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  margin-bottom: 4px;
+}
+
+.salary-highlight {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.custom-image-14 {
+  position: relative;
+  margin-top: 700px;
+  margin-left: 620px;
+  width: 720px;
+  height: 185px;
+  transform: scale(0.75);
+  transform-origin: top left;
+
+  flex-shrink: 0;
+  z-index: 0;
+}
+
+.section-title2 {
+  position: relative;
+  margin-top: 1612px;
+  margin-left: 102px;
+
+  width: 406px;
+  height: 72px;
+
+  color: #bf00ff;
+  font-family: "Pretendard", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  z-index: 5;
+}
+
+.section-tt2 {
+  position: relative;
+  margin-top: 2345px;
+  margin-left: 272px;
+
+  width: 406px;
+  height: 72px;
+
+  color: #bf00ff;
+  font-family: "Pretendard", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  z-index: 5;
+}
+
+.sns-reality-box {
+  position: relative;
+  margin-top: 160px;
+  margin-left: 380px;
+  width: 670px;
+  height: 301px;
+  color: #bf00ff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+  z-index: 1;
+}
+
+.sns-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  margin-bottom: 0px;
+}
+
+.sns-text {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+
+.sns-list {
+  margin-left: 18px;
+  margin-bottom: 0px;
+
+  padding-left: 0;
+}
+
+.sns-list li {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 0px;
+}
+
+.sns-highlight {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.wealth-info-box {
+  position: relative;
+  margin-top: 300px;
+  margin-left: 580px;
+  width: 630px;
+  color: #bf00ff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+  z-index: 2;
+}
+
+.wealth-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  margin-bottom: 0px;
+}
+
+.wealth-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-bottom: 0px;
+}
+
+.wealth-list {
+  margin-left: 18px;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+.wealth-list li {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-bottom: 0px;
+}
+
+.wealth-highlight {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.wealth-info-box2 {
+  position: relative;
+  top: 30px;
+  left: 580px;
+  width: 460px;
+  color: #bf00ff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+  z-index: 2;
+}
+
+.custom-image-21 {
+  position: relative;
+  margin-top: 2500px;
+  margin-left: 433px;
+  width: 263px;
+  height: 252px;
+  transform: scale(0.3);
+  transform-origin: top left;
+  z-index: 2;
+}
+
+.main-title2 {
+  position: relative;
+  margin-top: 3180px;
+  margin-left: 105px;
+  color: #bf00ff;
+  font-family: "Pretendard", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  z-index: 2;
+}
+
+.salary-explanation22 {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 110px;
+  width: 700px;
+
+  color: #bf00ff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+}
+
+.salary-explanation23 {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 110px;
+  width: 700px;
+
+  color: #bf00ff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+}
+
+.salary-explanation24 {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 110px;
+  width: 700px;
+  height: 200px;
+  color: #bf00ff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+}
+
+.salary-explanation25 {
+  position: relative;
+  margin-top: 0px;
+  margin-left: 110px;
+  width: 700px;
+
+  color: #bf00ff;
+  font-family: "Pretendard", sans-serif;
+  text-align: justify;
+}
+
+.salary-title22 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+
+.salary-list22 {
+  padding-left: 18px;
+  margin: 0 0 12px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.salary-list li {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  margin-bottom: 4px;
+}
+
+.custom-image-39 {
+  position: relative;
+  margin-top: 4528px;
+  margin-left: 75px;
+  width: 190px;
+  height: auto;
+
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.custom-image-40 {
+  position: relative;
+  margin-top: 3260px;
+  margin-left: 977px;
+  width: 35px;
+  height: auto;
+
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.custom-image-41 {
+  position: relative;
+  margin-top: 020px;
+  margin-left: 60px;
+  width: 280px;
+  height: auto;
+
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+#button .button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 25px;
+  margin-left: 260px;
+
+  overflow: visible;
+}
+
+.custom-image {
+  width: 140px;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  will-change: transform;
+  cursor: pointer;
+}
+
+.custom-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.custom-image-42 {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 600px;
+  width: 200px;
+  height: auto;
+
+  flex-shrink: 0;
+  z-index: 2;
+}
+.custom-image-42:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.2);
+}
+#profileBox {
+  width: 1020px;
+  height: auto;
+  margin-top: 4000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-image-50 {
+  position: relative;
+  margin-left: 100px;
+  width: 380px;
+  height: auto;
+
+  flex-shrink: 0;
+  z-index: 2;
+}
+.custom-image-51 {
+  position: relative;
+  width: 380px;
+  height: auto;
+
+  flex-shrink: 0;
+  z-index: 2;
+}
+.custom-image-52 {
+  position: relative;
+  width: 380px;
+  height: auto;
+
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.custom-image-50:hover {
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+}
+.custom-image-51:hover {
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+}
+.custom-image-52:hover {
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+}
+
+.container-4:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+/* 팝업창 오버레이 스타일 */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.popup-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.nav-button {
+  cursor: pointer;
+}
+
+#popUpBox {
+  position: fixed;
+  display: flex;
+  width: 800px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+#popUp1 {
+  width: 1300px;
+  object-fit: contain;
+}
+
+.section-tt3 {
+  position: relative;
+  margin-top: 4700px;
+  margin-left: 240px;
+
+  width: 300px;
+  height: 27px;
+
+  color: #ffffff;
+  font-family: "Pretendard", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  z-index: 5;
+}
+
+.section-tt4 {
+  position: relative;
+  margin-top: 4700px;
+  margin-left: 850px;
+
+  width: 800px;
+  height: 27px;
+
+  color: #ffffff;
+  font-family: "Pretendard", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  z-index: 5;
+}
